@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equive="refresh" conest="5">
+</head>
+<title>متجر سوق - موقع بيع المنتجات</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<!-- شريط التنقل العلوي -->
+<header>
+    <div class="container">
+        <div class="logo">
+            <h1>متجر<span>سوق</span></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#products">المنتجات</a></li>
+                <li><a href="#dashboard">لوحة التحكم</a></li>
+                <li><a href="#sales">المبيعات</a></li>
+                <li><a href="#contact">اتصل بنا</a></li>
+            </ul>
+        </nav>
+        <div class="cart-icon">
+            <a href="#cart"><i class="fas fa-shopping-cart"></i> <span class="cart-count">0</span></a>
+        </div>
+    </div>
+</header>
+
+
+
+<!-- قسم العرض المتحرك -->
+<section class="slider" id="home">
+    <div class="slide active">
+        <img src=https://i.pinimg.com/736x/99/64/a2/9964a202c67115b1f40714082848c312.jpg alt="عرض خاص">
+        <div class="slide-content">
+            <h2>خصم يصل إلى 50%</h2>
+            <p>احصل على أفضل العروض في موسمنا الجديد</p>
+            <a href="#products" class="btn">تسوق الآن</a>
+        </div>
+
+        <div class="slide">
+            <img src="https://i.pinimg.com/736x/41/0e/15/410e15cd425b8377f9ca7f9579851cac.jpg" alt="شحن مجاني">
+            <div class="slide-content">
+                <h2>شحن مجاني</h2>
+                <p>لجميع الطلبات فوق 200 ريال</p>
+                <a href="#products" class="btn">تسوق الآن</a>
+            </div>
+        </div>
+        <div class="slider-nav">
+            <button class="prev"><i class="fas fa-chevron-right"></i></button>
+            <button class="next"><i class="fas fa-chevron-left"></i></button>
+        </div>
+        <div class="slider-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+</section>
+
+<!-- قسم المنتجات -->
+<section class="products" id="products">
+    <div class="container">
+        <h2 class="section-title">منتجاتنا</h2>
+        <div class="products-grid">
+            <!-- المنتج 1 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src=https://i.pinimg.com/736x/41/44/4f/41444fa509f7a0e4f9aa6ff2dc8beb49.jpg alt="منتج 1">
+
+                    <div class="product-badge">جديد</div>
+                </div>
+                <div class="product-info">
+                    <h3>Camera Canon400D</h3>
+                    <p class="product-description">Canon EOS 4000D DSLR Camera EF-S 18-55 mm. </p>
+                    <div class="product-price">
+                        <span class="price">150 ريال</span>
+                        <span class="old-price">200 ريال</span>
+                    </div>
+                    <button class="add-to-cart">أضف إلى السلة</button>
+                </div>
+            </div>
+
+            <!-- المنتج 2 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://i.pinimg.com/736x/b2/2b/ab/b22babcb6dffcbcb2885f14a0bd52be8.jpg" alt="منتج 2">
+                </div>
+                <div class="product-info">
+                    <h3> Power Pank</h3>
+                    <p class="product-description">INIU Power Bank, 20,000 mAh, Fast Charging, USB-C. </p>
+                    <div class="product-price">
+                        <span class="price">250 ريال</span>
+                    </div>
+                    <button class="add-to-cart">أضف إلى السلة</button>
+                </div>
+            </div>
+
+            <!-- المنتج 3 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://m.media-amazon.com/images/I/61alfOOAeAL._AC_UY545_FMwebp_QL65_.jpg" alt="منتج 3">
+                    <div class="product-badge">25% خصم</div>
+                </div>
+                <div class="product-info">
+                    <h3>Selfie Stick Tripod</h3>
+                    <p class="product-description">Built-in All-in-1 Design This selfie stick with tripod.</p>
+                    <div class="product-price">
+                        <span class="price">180 ريال</span>
+                        <span class="old-price">240 ريال</span>
+                    </div>
+                    <button class="add-to-cart">أضف إلى السلة</button>
+                </div>
+            </div>
+
+            <!-- المنتج 4 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://i.pinimg.com/736x/81/32/56/813256b3f6e5ad4275cbe99d98405062.jpg" alt="منتج 4">
+                </div>
+                <div class="product-info">
+                    <h3>Smart Projector 4K [Netflix Official & 3D</h3>
+                    <p class="product-description">Netflix Projector & Immersive 3D Dolby Audio: The VISSPL Smart
+                        Projector supports over 1,000,000 videos from certified apps</p>
+                    <div class="product-price">
+                        <span class="price">320 ريال</span>
+                    </div>
+                    <button class="add-to-cart">أضف إلى السلة</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- قسم لوحة التحكم -->
+<section class="dashboard" id="dashboard">
+    <div class="container">
+        <h2 class="section-title">لوحة التحكم</h2>
+        <div class="dashboard-grid">
+            <div class="dashboard-card">
+                <i class="fas fa-chart-line"></i>
+                <h3>إحصائيات المبيعات</h3>
+                <p>عرض جميع الإحصائيات والمبيعات اليومية والشهرية</p>
+                <a href="#" class="btn">عرض التفاصيل</a>
+            </div>
+            <div class="dashboard-card">
+                <i class="fas fa-box-open"></i>
+                <h3>إدارة المنتجات</h3>
+                <p>إضافة منتجات جديدة أو تعديل المنتجات الحالية</p>
+                <a href="#" class="btn">إدارة المنتجات</a>
+            </div>
+            <div class="dashboard-card">
+                <i class="fas fa-users"></i>
+                <h3>إدارة العملاء</h3>
+                <p>عرض وتعديل بيانات العملاء المسجلين</p>
+                <a href="#" class="btn">إدارة العملاء</a>
+            </div>
+            <div class="dashboard-card">
+                <i class="fas fa-file-invoice-dollar"></i>
+                <h3>الفواتير والطلبات</h3>
+                <p>عرض جميع الفواتير والطلبات وتحديث حالاتها</p>
+                <a href="#" class="btn">عرض الطلبات</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- قسم المبيعات -->
+<section class="sales" id="sales">
+    <div class="container">
+        <h2 class="section-title">تقارير المبيعات</h2>
+        <div class="sales-stats">
+            <div class="stat-card">
+                <h3>المبيعات اليوم</h3>
+                <p class="stat-value">2,450 ريال</p>
+                <p class="stat-change up"><i class="fas fa-arrow-up"></i> 12% عن الأمس</p>
+            </div>
+            <div class="stat-card">
+                <h3>المبيعات الشهرية</h3>
+                <p class="stat-value">34,800 ريال</p>
+                <p class="stat-change up"><i class="fas fa-arrow-up"></i> 8% عن الشهر الماضي</p>
+            </div>
+            <div class="stat-card">
+                <h3>إجمالي الطلبات</h3>
+                <p class="stat-value">124 طلب</p>
+                <p class="stat-change down"><i class="fas fa-arrow-down"></i> 5% عن الشهر الماضي</p>
+            </div>
+        </div>
+        <div class="sales-table">
+            <h3>أحدث الطلبات</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>رقم الطلب</th>
+                        <th>العميل</th>
+                        <th>التاريخ</th>
+                        <th>المبلغ</th>
+                        <th>الحالة</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>#12345</td>
+                        <td>*****</td>
+                        <td>2023-05-15</td>
+                        <td>450 ريال</td>
+                        <td><span class="status completed">مكتمل</span></td>
+                    </tr>
+                    <tr>
+                        <td>#12344</td>
+                        <td>*****</td>
+                        <td>2023-05-15</td>
+                        <td>320 ريال</td>
+                        <td><span class="status shipped">تم الشحن</span></td>
+                    </tr>
+                    <tr>
+                        <td>#12343</td>
+                        <td>*****</td>
+                        <td>2023-05-14</td>
+                        <td>560 ريال</td>
+                        <td><span class="status processing">قيد التجهيز</span></td>
+                    </tr>
+                    <tr>
+                        <td>#12342</td>
+                        <td>*****</td>
+                        <td>2023-05-14</td>
+                        <td>210 ريال</td>
+                        <td><span class="status pending">قيد الانتظار</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+<!-- سلة التسوق -->
+<section class="cart" id="cart">
+    <div class="container">
+        <h2 class="section-title">سلة التسوق</h2>
+        <div class="cart-content">
+            <div class="cart-items">
+                <div class="cart-item">
+                    <div class="item-image">
+                        <img src="https://i.pinimg.com/736x/41/44/4f/41444fa509f7a0e4f9aa6ff2dc8beb49.jpg" alt="منتج 1">
+                    </div>
+                    <div class="item-details">
+                        <h3>منتج مميز 1</h3>
+                        <p class="item-price">150 ريال</p>
+                        <div class="item-quantity">
+                            <button class="quantity-btn minus">-</button>
+                            <span class="quantity">1</span>
+                            <button class="quantity-btn plus">+</button>
+                        </div>
+                    </div>
+                    <button class="remove-item"><i class="fas fa-times"></i></button>
+                </div>
+                <div class="cart-item">
+                    <div class="item-image">
+                        <img src="https://m.media-amazon.com/images/I/61alfOOAeAL._AC_UY545_FMwebp_QL65_.jpg"
+                            alt="منتج 3">
+                    </div>
+                    <div class="item-details">
+                        <h3>منتج مميز 3</h3>
+                        <p class="item-price">180 ريال</p>
+                        <div class="item-quantity">
+                            <button class="quantity-btn minus">-</button>
+                            <span class="quantity">2</span>
+                            <button class="quantity-btn plus">+</button>
+                        </div>
+                    </div>
+                    <button class="remove-item"><i class="fas fa-times"></i></button>
+                </div>
+            </div>
+            <div class="cart-summary">
+                <h3>ملخص الطلب</h3>
+                <div class="summary-details">
+                    <div class="summary-row">
+                        <span>المجموع الفرعي</span>
+                        <span>510 ريال</span>
+                    </div>
+                    <div class="summary-row">
+                        <span>الشحن</span>
+                        <span>25 ريال</span>
+                    </div>
+                    <div class="summary-row total">
+                        <span>المجموع الكلي</span>
+                        <span>535 ريال</span>
+                    </div>
+                </div>
+                <button class="checkout-btn">إتمام الشراء</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- قسم التواصل -->
+<section class="contact" id="contact">
+    <div class="container">
+        <h2 class="section-title">اتصل بنا</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3>معلومات التواصل</h3>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>المملكة العربية السعودية، الرياض، شارع الملك فهد</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+966 12 345 ***</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>info@matjarona.com</p>
+                </div>
+
+                 <div class="payment-methods">
+            <h2>طرق الدفع المتاحة</h2>
+            <div class="methods-grid">
+                <div class="method">
+                    <i class="fab fa-cc-visa"></i>
+                    <span>فيزا</span>
+                </div>
+                <div class="method">
+                    <i class="fab fa-cc-mastercard"></i>
+                    <span>ماستركارد</span>
+                </div>
+                <div class="method">
+                    <i class="fab fa-cc-paypal"></i>
+                    <span>باي بال</span>
+                </div>
+                <div class="method">
+                    <i class="fas fa-money-bill-wave"></i>
+                    <span>الدفع عند الاستلام</span>
+                </div>
+                <div class="method">
+                    <i class="fas fa-mobile-alt"></i>
+                    <span>محفظة إلكترونية</span>
+                </div>
+            
+            <div class="contact-form">
+                <form>
+                    <div class="form-group">
+                        <input type="text" placeholder="اسمك الكامل" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="بريدك الإلكتروني" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="الموضوع">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="رسالتك" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">إرسال الرسالة</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- قسم عن الموقع وطرق الدفع -->
+<section class="about-payment">
+    <div class="container">
+        <div class="about-section">
+            <h2>عن متجرنا</h2>
+            <p>متجرنا هو وجهتك الأولى لشراء أفضل المنتجات بأعلى جودة وأفضل الأسعار. نقدم مجموعة واسعة من المنتجات
+                التي تلبي جميع احتياجاتك اليومية. نسعى دائمًا لتقديم تجربة تسوق ممتعة وسهلة لعملائنا الكرام.</p>
+            <p>تأسس متجرنا في عام 2020 بهدف تقديم منتجات عالية الجودة بأسعار تنافسية، مع التركيز على رضا العملاء
+                وتقديم خدمة مميزة.</p>
+                 <div class="social-media">
+                    <h2>تواصل معنا</h2>
+
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-snapchat-ghost"></i></a>
+                </div>
+                <div style="text-align: center;">
+                    <p>By Mahmoud Ahmed&copy;</p>
+                    <h6>جميع الحقوق محفوظه</h6>
+                </div>
